@@ -12,11 +12,11 @@ int main() {
 	sum = number1 + number2;
 	subtraction = number1 - number2;
 	multiplication = number1 * number2;
-	division = number1 / number2;
+	division = (float) number1 / number2;
 
 	printf("\nResultado:");
-	printf("\nSoma: %f", sum);
-	printf("\nSubtração: %f", subtraction);
-	printf("\nMultiplicação: %f", multiplication);
-	printf("\nDivisão: %f\n", division);
+	printf("\n%f + %f: %f", number1, number2,  sum);
+	printf("\n%f - %f: %f", number1, number2, subtraction);
+	printf("\n%f * %f: %f", number1, number2, multiplication);
+	printf("\n%f / %f: %f\n", number1, number2, division);
 }
