@@ -6,9 +6,6 @@ int main() {
 	printf("Digite um número: ");
 	scanf("%f", &number);
 
-	predecessor = number - 1;
-	successor = number + 1;
-
-	printf("O antercessor do número %f é %f e o sucessor é %f\n", number, predecessor, successor);
+	printf("O antercessor do número %.2f é %.2f e o sucessor é %.2f\n", number, number - 1, number + 1);
 	return 0;
 }
