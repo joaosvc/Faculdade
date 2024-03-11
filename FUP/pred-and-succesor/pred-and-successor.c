@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	float number, predecessor, successor;
+	float number;
 
 	printf("Digite um número: ");
 	scanf("%f", &number);
